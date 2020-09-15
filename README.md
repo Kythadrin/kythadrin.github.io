@@ -1,4 +1,4 @@
-# Vārds: Vadims     Uzvārds: Sirics
+# Vārds: Vadims | Uzvārds: Sirics
 
 Ko tieši gribi sasniegt programmēšanā? Varbūt profesionālisms. Es tikai gribu nodarboties ar to, kas man patīk, bet man patīk programmēšana.
 
