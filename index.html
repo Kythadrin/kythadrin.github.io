@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/theme.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo-desk"><img src="img/logo-mobile.png" alt="logo" class="logo-mobile"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="container navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ideja</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Piesaki Sapni</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Uzņēmējiem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sapņus banka</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">99 Iedvesmas stāsti</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">LV</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="video">
+	<div class="ripped ripped-down"></div>
+	<img src="img/video.png" alt="video">
+	<div class="playButton">
+		<img src="img/playButton.png" class="center" alt="playButton"></button>
+	</div>
+</div>
+
+<div class="aboutUs" id="aboutUs">
+	<p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
+</div>
+
+<div class="gallery desktop" id="gallery">
+	<div class="ripped ripped-down"></div>
+	<div class="row">
+		<div class="column"><img src="img/Zanda.jpg" alt="gallery1"></div>
+		<div class="column"><img src="img/Sibilla.jpg" alt="gallery2"></div>
+		<div class="column"><br><img src="img/Brinuma_meita.jpg" alt="gallery3"><br>
+			<img src="img/Alina.jpg" alt="gallery4"></div>
+		<div class="column"><img src="img/Anda.jpg" alt="gallery5"></div>
+	</div>
+	<div class="ripped ripped-up"></div>
+</div>
+
+<div class="gallery mobile" id="gallery">
+	<div class="ripped ripped-down"></div>
+	<div class="row">
+		<div class="column"><br><img src="img/Brinuma_meita.jpg" width="136px" height="82px" alt="gallery3"><br>
+			<img src="img/Alina.jpg" width="136px" height="85px" alt="gallery4"></div>
+		<div class="column"><br><img src="img/Anda.jpg" width="184px" height="167px" alt="gallery5" ></div>
+		<div class="column"><img src="img/Zanda.jpg" width="168px" height="183px" alt="gallery1"></div>
+		<div class="column"><img src="img/Sibilla.jpg" width="167px" height="183px" alt="gallery2"></div>
+	</div>
+	<div class="ripped ripped-up"></div>
+</div>
+
+<div class="container-fluid" id="info">
+	<div class="row">
+		<div class="col-md">
+			<p>Vēlies pipildīt savu sapni?</p>
+			<a href="#"><div class="button-info">Sapņotājiem</div></a>
+		</div>
+		<div class="col-md">
+			<p>Vēlies palīdzēt kādām piepildīt sapni?</p>
+			<a href="#"><div class="button-info">Uzņēmējiem</div></a>
+		</div>
+	</div>
+</div>
+
+<div id="contactUs">
+	<h1>Sazināties ar mums</h1>
+	<form action="" method="post">
+		<input type="text" id="name" name="name" placeholder="Vārds, Uzvārds*" required><br class="mobile">
+		<input type="email" id="email" name="email" placeholder="E-Pāsts*" required><br>
+		<input type="number" id="phone" name="phone" placeholder="Telefons*" required><br>
+		<textarea type="number" id="ask" name="ask" placeholder="Jautājums, vai komentārs*" required></textarea>
+		<p>* obligāti aizpildāmie lauki</p>
+		<div class="terms">
+			<span class="checkbox">
+				<input type="checkbox" id="terms" name="terms" value="true">
+			</span>
+			<label for="terms">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br> saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label><br>
+			<button type="submit" id="submit" name="submit">Sūtīt</button>
+		</div>
+	</form>
+</div>
+
+<div id="responsible">
+	<div class="ripped ripped-down"></div>
+	<h1>Atbalstītāji</h1>
+	<div class="resp-logo">
+		<img src="img/teikums.png" alt="teikums logo" width="241.95px" height="80px">
+		<img src="img/sem.png" alt="sem logo" width="209.32px" height="80px">
+		<img src="img/citybee.png" alt="citybee logo" width="238.96px" height="80px">
+		<img src="img/linearis.png" alt="linearis logo" width="84.77px" height="120px">
+	</div>
+	<div class="ripped ripped-up ripped-footer"></div>
+</div>
+
+<footer>
+  	<div class="container-fluid">
+    	<div class="row">
+      		<div class="col-md">
+				<img src="img/footer-logo.png" alt="logo">
+      		</div>
+      		<div class="col-md list">
+        		<ul>
+			        <li><a href="#">Ideja</a></li>
+			        <li><a href="#">Piesaki Sapni</a></li>
+			        <li><a href="#">Uznēmējiem</a></li>
+			        <li><a href="#">Sapņu banka</a></li>
+			        <li><a href="#">Sapņus atbalsta</a></li>
+			        <li><a href="#">Iedvesmas stāsti</a></li>
+		        </ul>
+     		</div>
+      		<div class="col-md bank">
+      			<h5>Biedrība SparkleHeart</h5>
+      			<p>Reģistrācijas nr. 40008293119</p>
+  				<p>Banka: SWEDBANK A/S</p>
+  				<p>LV52HABA0551047652465</p>
+      		</div>
+      		<div class="col-md text-right contact">
+		        <h5>Juris Gogulis</h5>
+		        <p>juris.gogulis@sparkleheart.org</p>
+		        <p>+37126890034</p>
+		        <p>Biķernieku iela 24a - 5, LV-1006</p>
+		        <div class="social">
+			        <a href="#"><img src="img/facebook.png" alt="facebook logo"></a>
+			        <a href="#"><img src="img/instagram.png" alt="instagram logo"></a>
+			    </div>
+		    </div>
+ 		</div>
+ 		<div class="container-fluid bottom">
+    		<div class="row">
+    			<div class="col-md text-left">
+     				 © SparkleHeart 2020.<br> Visas tiesības aizsargātas.
+     			</div>
+      			<div class="col-md text-right">
+     				 <a href="#"><br>Privātuma politika</a>
+     			</div>
+     		</div>
+     	</div>
+    </div>
+</footer>
+<div onclick="topFunction()" id="scroll-up">Top</div>
+</body>
+</html>

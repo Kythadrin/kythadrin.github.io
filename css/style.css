@@ -1,0 +1,462 @@
+body, html{
+	scroll-behavior: smooth;
+}
+
+html{
+	font-family: Montserrat;
+	font-style: normal;
+	position: relative;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+nav{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #060606;
+	z-index: 2;
+}
+
+nav ul {
+	 text-align: center;
+	 padding: 0;
+	 margin: 0;
+}
+
+.navbar{
+	width: 100%;
+}
+
+.navbar-brand{
+	margin-top: -13px;
+	margin-left: 62px;
+}
+
+.navbar-nav{ 
+	margin-top: 16px;
+	padding-left: 84px !important;
+}
+
+.ripped{
+	position: absolute;
+	width: 100%;
+	height: 55px;
+	left: 0;
+	background-color: transparent;
+	background-image: url(../img/ripped.png);
+	z-index: 1;
+}
+
+.ripped-down{
+	top: 0;
+}
+
+.ripped-up{
+	bottom: 0;
+	rotate: 180deg;
+}
+
+.ripped-footer{
+	bottom: 0;
+	background-image: url(../img/ripped-footer.png)
+}
+
+#video{
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#video img{
+	max-width: 100%;
+}
+
+.playButton{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.aboutUs p{
+	text-align: center;
+	padding: 15% 30% 15% 30%;
+}
+
+.gallery{
+	position: relative;
+	margin-left: 0 !important;
+}
+
+.gallery .row{
+	padding: 0;
+	margin-left: 0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.gallery .columm{
+	max-width: 25%;
+}
+
+.gallery .column img{
+	display: inline-block;
+ 	vertical-align: bottom;
+ 	max-width: 100%;
+}
+
+.mobile{
+	display: none;
+}
+
+#info{
+	padding: 165px 0 165px 0;
+	color: #2F4858;
+	font: normal bold 24px/36px "Oswald", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button-info{
+	background:    #ffa800;
+	border-radius: 25px;
+	width:         233px;
+	height:        50px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 500 18px/50px "Montserrat", sans-serif;
+	text-align:    center;
+	margin-top: 50px;
+}
+
+#contactUs{
+	text-align: center;
+	color: #2F4858;
+	margin-bottom: 150px;
+	width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contactUs h1{
+	font: normal bold 30px/44px "Oswald", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+#contactUs input, #contactUs textarea{
+	font-weight: normal;
+	font-size: 18px
+	line-height: 22px;
+	letter-spacing: -0.015em;
+	margin-bottom: 15px;
+	outline: none;
+	resize: none;
+}
+
+#contactUs input, #contactUs textarea{
+	padding: 13px 14px 10px 12px;
+	background: rgba(196, 196, 196, 0.4);
+	border-radius: 6px;
+	outline: none;
+	border: none;
+}
+
+#name{
+	margin-right: 20px;
+}
+
+#name, #email{
+	width: 296px;
+	height: 43px;
+}
+
+#phone{
+	width: 612px;
+	height: 43px;
+}
+
+#ask{
+	width: 612px;
+	height: 232px;
+}
+
+#contactUs p{
+	text-align: left;
+	margin-top: -8px;
+	margin-left: 8px;
+}
+
+#terms{
+	float: left;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.terms {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 612px;
+}
+
+.terms label{
+	position: absolute;
+	text-align: left;
+	left: 37px; 
+	top: -4px;
+	display: block; 
+	float: left;
+	line-height: 17px;
+}
+
+.checkbox{
+	float: left;
+	background-color: #E7E7E7;
+	border-radius: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+#contactUs input::-webkit-outer-spin-button,
+#contactUs input::-webkit-inner-spin-button {
+  	-webkit-appearance: none;
+ 	margin: 0;
+}
+
+#contactUs input[type=number] {
+  	-moz-appearance: textfield;
+}
+
+#submit{
+	background:    #ffa800;
+	border-radius: 25px;
+	width:         182px;
+	height:        62px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 500 24px/29px "Montserrat", sans-serif;
+	text-align:    center;
+	border: none; 
+	outline: none;
+	margin-top: 50px;
+}
+
+#responsible{
+	position: relative;
+	width: 100%;
+	height: 533.32px;
+	background-color: #FFCB66;
+	padding-bottom: 201.66px !important;
+}
+
+#responsible h1{
+	font: normal bold 24px/36px "Oswald", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 100px;
+}
+
+.resp-logo{
+	margin-left: 20%;
+	margin-right: 20%;
+	display: inline-flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	margin-top: 89px;
+}
+
+footer{
+	position: relative;
+	padding-top: 17px;
+	background-color: #2F4858;
+	color: #FFFFFF;
+}
+
+footer li{
+	list-style-type: none;
+	margin-bottom: 21px;
+	
+}
+
+footer ul{
+	margin: 0;
+	padding: 0;
+}
+
+footer a{
+	color: #FFFFFF;
+}
+
+footer a:hover{
+	color: grey;
+}
+
+footer p{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+footer .bank p{
+	margin-bottom: 10px;
+}
+
+footer .contact p{
+	margin-bottom: 12px;
+}
+
+footer h5{
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 500;
+}
+
+footer .container-fluid .row{
+	margin-left: 62px;
+	margin-right: 62px;
+}
+
+.social{
+	margin-top: 52px;
+}
+
+.social img{
+	margin-left: 29px;
+}
+
+.bottom{
+	font-size: 14px;
+	line-height: 17px;
+	padding-bottom: 20px;
+}
+
+#scroll-up{
+	
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px; 
+	border-radius: 10px; 
+	font-size: 18px; 
+}
+
+#scroll-up:hover {
+  	background-color: #555;
+}
+
+.logo-mobile{
+	display: none;
+}
+
+@media(min-width: 989px){
+	.logo-desk{
+		display: block;
+	}
+
+	.logo-mobile{
+		display: none;
+		
+	}
+}
+
+@media (max-width: 988px){
+	.logo-desk{
+		display: none;
+	}
+
+	.logo-mobile{
+		display: block;
+		margin-left: -40px;
+	}
+
+	.navbar-brand{
+		margin-bottom: -50px;
+	}
+}
+
+@media (max-width: 600px){
+	html{
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	#info {
+		padding-bottom: 120px;
+	}
+
+	#info p{
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.button-info{
+		font-size: 18px;
+		width: 233px;
+		height: 50px;
+		margin-bottom: 80px;
+		margin-top: 20px;
+	}
+
+	.playButton{
+		width: 50px;
+		margin-left: -9%;
+	}
+
+	#contactUs h1{
+		font-size: 24px;
+	}
+
+	#contactUs input, #contactUs textarea{
+		font-size: 14px;
+		width: 280px;
+
+	}
+
+	#contactUs .mobile{
+		display: block;
+	}
+
+	#responsible .resp-logo{
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 601px){
+	.mobile{
+		display: none;
+	}
+
+	.desktop{
+		display: inline-block;
+	}
+
+	.gallery .row{
+		flex-wrap: nowrap;
+	}
+}
+
+@media (max-width: 600px){
+	.gallery .row{
+		flex-wrap: wrap;
+	}
+
+	.mobile{
+		display: flex;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+
+}
